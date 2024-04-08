@@ -4,7 +4,7 @@
 
 The idea is to be able to automate tasks on your personal computer by clicking one file instead of having to go to multiple places to get the same task done over and over. In this case we want to automate opening up a web browser and navigating through websites and channels until you finally are able to get to the video/music you want to listen to online. This example can be used for any number of tasks. I encourage you to explore!
 
-1. A **<u>shell script</u>** can be created to run an action on a computer, in this case starting a webbrowser and running a youtube video.
+1. A **_shell script_** can be created to run an action on a computer, in this case starting a webbrowser and running a youtube video.
    - a basic shell script is written in this repo called `test.sh`
    - if you write with a shell script and need to be able to execute it, you have to give it executable capabilities with the following command:
     ```
@@ -14,9 +14,9 @@ The idea is to be able to automate tasks on your personal computer by clicking o
     ```
      ./test.sh
     ```
-2. A **<u>batch file</u>** can be used to initiate a command that would otherwise need to be manually written in command prompt / powershell and can contain file manipulation commands like `dir` or `echo`. We have written a bat file to replace the bash script in this example. Saving this bat file to your desktop and clicking it will run whatever is in the bat file. View the batch file in this repo -> `test.bat`.
+2. A **_batch file_** can be used to initiate a command that would otherwise need to be manually written in command prompt / powershell and can contain file manipulation commands like `dir` or `echo`. We have written a bat file to replace the bash script in this example. Saving this bat file to your desktop and clicking it will run whatever is in the bat file. View the batch file in this repo -> `test.bat`.
  
-3. A **<u>exe file</u>** can be created as well to carry this out and will also simply need to be clicked by the end-user to initiate.
+3. A **_exe file_** can be created as well to carry this out and will also simply need to be clicked by the end-user to initiate.
     1. in this repo we use python to carry this out, but it can be done in any language you like.
     2. we then use the python `subprocess` can be used to write shell/bash commands inside python code
     3. pyinstaller is then used to convert a python file into a executable
