@@ -14,7 +14,7 @@ The idea is to be able to automate tasks on your personal computer by clicking o
     ```
      ./test.sh
     ```
-2. A **_batch file_** (used for Windows OS mainly rather than linux) can be used to initiate a command that would otherwise need to be manually written in command prompt / powershell and can contain file manipulation commands like `dir` or `echo`. We have written a bat file to replace the bash script in this example. Saving this bat file to your desktop and clicking it will run whatever is in the bat file. View the batch file in this repo -> `test.bat`.
+2. A **_batch file_** (used for Windows OS mainly rather than linux) can be used to initiate a command that would otherwise need to be manually written in command prompt / powershell and can contain file manipulation commands like `dir` or `echo`. We have written a bat file to replace the shell script in this example. Saving this bat file to your desktop and clicking it will run whatever is in the bat file. View the batch file in this repo -> `test.bat`.
  
 3. A **_exe file_** can be created as well to carry this out and will also simply need to be clicked by the end-user to initiate.
     1. in this repo we use python to carry this out, but it can be done in any language you like.
