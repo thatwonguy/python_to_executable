@@ -23,7 +23,7 @@ The idea is to be able to automate tasks on your personal computer by clicking o
         - a number of files and folders will be created. the exe file will be located inside the newly created `dist` folder
         - exe files are considered unsafe by most virus protection software and windows defender and the file will be removed upon downloading if you try to hand this over to someone else to help them out
         - can consider providing your friend a bat file instead but will have to write out the automation steps using cmd or powershell instead of your fav coding language
-- `research.ipynb` can be viewed to look at some of the approaches mentioned to create the exe file
+- `research.ipynb` can be viewed to look at an approach for carrying out the creation of an exe file
 ---
 ## Outline Of Pros & Cons Between shell/bat/exe file Approach
 
