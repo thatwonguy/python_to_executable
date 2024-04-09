@@ -18,7 +18,7 @@ The idea is to be able to automate tasks on your personal computer by clicking o
  
 3. A **_exe file_** can be created as well to carry this out and will also simply need to be clicked by the end-user to initiate.
     1. in this repo we use python to carry this out, but it can be done in any language you like.
-    2. we then use the python `subprocess` can be used to write shell/bash commands inside python code
+    2. we then use the python `subprocess` library to write shell/bat commands inside python code
     3. pyinstaller is then used to convert a python file into a executable
         - exe files are considered unsafe by most virus protection software and windows defender and the file will be removed upon downloading if you try to hand this over to someone else to help them out
         - can consider providing your friend a bat file instead but will have to write out the automation steps using cmd or powershell instead of your fav coding language
