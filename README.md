@@ -14,7 +14,7 @@ The idea is to be able to automate tasks on your personal computer by clicking o
     ```
      ./test.sh
     ```
-2. A **_batch file_** (used for Windows OS mainly rather than linux) can be used to initiate a command that would otherwise need to be manually written in command prompt / powershell and can contain file manipulation commands like `dir` or `echo`. We have written a bat file to replace the shell script in this example. Saving this (batch)bat file to your desktop and clicking it will run whatever is in the bat file. View the batch file in this repo -> `test.bat`.
+2. A **_batch file_** (used for Windows OS mainly rather than linux) can be used to initiate a command that would otherwise need to be manually written in command prompt / powershell and can contain file manipulation commands like `dir` or `echo`. We have written a bat file to replace the shell script in this repo. Saving this (batch)bat file to your desktop and clicking it will run whatever is in the bat file. View the batch file in this repo -> `test.bat`.
  
 3. An **_exe file_** can be created as well to carry this out and will also simply need to be clicked by the end-user to initiate.
     1. in this repo we use python to carry this out, but it can be done in any language you like.
@@ -23,7 +23,7 @@ The idea is to be able to automate tasks on your personal computer by clicking o
         - a number of files and folders will be created. the exe file will be located inside the newly created `dist` folder
         - exe files are considered unsafe by most virus protection software and windows defender and the file will be removed upon downloading if you try to hand this over to someone else to help them out
         - can consider providing your friend a bat file instead but will have to write out the automation steps using cmd or powershell instead of your fav coding language
-- `research.ipynb` inside. this repo can be viewed to see how the creation of an exe file can be carried out
+- The `research.ipynb` inside this repo can be viewed to see how the creation of an exe file can be carried out
 ---
 ## Outline Of Pros & Cons Between shell/bat/exe file Approach
 
