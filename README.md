@@ -1,6 +1,6 @@
 # python_to_executable
 
-### Demo to create a python script and convert it to a exe file.
+### Demo to create a python script and convert it to an exe file.
 
 The idea is to be able to automate tasks on your personal computer by clicking one file instead of having to go to multiple places to get the same task done over and over. In this case we want to automate opening up a web browser and navigating through websites and channels until you finally are able to get to the video/music you want to listen to online. This example can be used for any number of tasks. I encourage you to explore!
 
