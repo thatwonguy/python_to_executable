@@ -6,6 +6,9 @@
 
 The idea is to be able to automate tasks on your personal computer by clicking one file instead of having to go to multiple places to get the same task done over and over. In this case we want to automate opening up a web browser and navigating through websites and channels until you finally are able to get to the video/music you want to listen to online. This example can be used for any number of tasks. I encourage you to explore!
 
+> [!NOTE]
+> Ideally you want to create a virtual environment(venv) for the individual project you are working on and install all the requirements inside the venv after activating it in your terminal to avoid package installation issues with other projects.
+
 1. A **_shell script_** (mainly used for UNIX/Linux OS) can be created to run an action on a computer, in this case starting a webbrowser and running a youtube video.
    - a basic shell script is written in this repo called `test.sh`
    - if you write with a shell script and need to be able to execute it, you have to give it executable capabilities with the following command:
