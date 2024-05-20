@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# python_to_executable
+# task_automotion_python_executable
 
 ### Demo to create a python script and convert it to an exe file.
 
